@@ -1,7 +1,6 @@
     /* colors palette: #e4f9f5 #30e3ca #11999e #40514e */
 
 
-    /* Mobile Navigation Bar from https://www.w3schools.com/howto/howto_js_mobile_navbar.asp */
     html {
       color: #e4f9f5;
     }
@@ -11,6 +10,7 @@
       background-color: #e4f9f5;
     }
 
+    /* Mobile Navigation Bar from https://www.w3schools.com/howto/howto_js_mobile_navbar.asp */
     .mobile-container {
       margin: auto;
       background-color: #c7d5e0;
@@ -58,7 +58,39 @@
     /* Mobile Navigation Bar from https://www.w3schools.com/howto/howto_js_mobile_navbar.asp */
 
     .container {
-      background-color: #40514e;
-      margin: auto;
-      padding: 0;
+      display: grid;
+      grid-template-areas:
+        "header"
+        "section"
+        "article"
+        "footer";
+      grid-gap: 5px;
+    }
+
+    header {
+      background: #40514e;
+      grid-area: header;
+    }
+
+    section {
+      background: #40514e;
+      grid-area: section;
+    }
+
+    footer {
+      background: #40514e;
+      grid-area: footer;
+    }
+
+    article {
+      background: #40514e;
+      grid-area: article;
+    }
+
+    header,
+    article,
+    section,
+    footer {
+      padding: 5px;
+      margin: 1rem 0 0 0;
     }
