@@ -102,10 +102,20 @@
       margin: 0;
     }
 
-    header p:first-child,
-    section p:first-child,
-    article p:first-child {
+    h1 {
       padding: 1rem 1rem 0 1rem;
       margin: 0;
       font-size: 150%;
+    }
+
+    .fas fa-paint-brush fa-3x,
+    fas fa-gamepad fa-3x,
+    fab fa-internet-explorer fa-3x {
+      text-align: center;
+    }
+
+    i.fas,
+    i.fab {
+      display: flex;
+      flex-direction: row;
     }
