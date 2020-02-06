@@ -1,11 +1,14 @@
-    /* colors: #c7d5e0 #1b2838 #c7d5e0 */
+    /* colors palette: #e4f9f5 #30e3ca #11999e #40514e */
 
 
     /* Mobile Navigation Bar from https://www.w3schools.com/howto/howto_js_mobile_navbar.asp */
+    html {
+      color: #e4f9f5;
+    }
 
     body {
       font-family: 'PT serif', Arial, Helvetica, sans-serif;
-      background-color: #c7d5e0;
+      background-color: #e4f9f5;
     }
 
     .mobile-container {
@@ -18,7 +21,7 @@
 
     .topnav {
       overflow: hidden;
-      background-color: #1b2838;
+      background-color: #40514e;
       position: relative;
     }
 
@@ -27,7 +30,7 @@
     }
 
     .topnav a {
-      color: white;
+      color: #e4f9f5;
       padding: 1rem;
       text-decoration: none;
       font-size: 17px;
@@ -35,7 +38,7 @@
     }
 
     .topnav a.icon {
-      background: #1b2838;
+      background: #11999e;
       display: block;
       position: absolute;
       right: 0;
@@ -43,19 +46,19 @@
     }
 
     .topnav a:hover {
-      background-color: #c7d5e0;
+      background-color: #11999e;
       color: black;
     }
 
     .active {
-      background-color: #1b2838;
+      background-color: #40514e;
       color: white;
     }
 
     /* Mobile Navigation Bar from https://www.w3schools.com/howto/howto_js_mobile_navbar.asp */
 
     .container {
-      background-color: #1b2838;
+      background-color: #40514e;
       margin: auto;
       padding: 0;
     }
