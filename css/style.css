@@ -70,13 +70,11 @@
     header {
       background: #40514e;
       grid-area: header;
-      height: 10rem;
     }
 
     section {
       background: #40514e;
       grid-area: section;
-      height: 10rem;
     }
 
     footer {
@@ -97,13 +95,17 @@
       margin: 1rem 0 0 0;
     }
 
-    footer p {
+    footer p,
+    section p,
+    header p {
       padding: 1rem;
       margin: 0;
     }
 
-    header p {
-      padding: 1rem;
+    header p:first-child,
+    section p:first-child,
+    article p:first-child {
+      padding: 1rem 1rem 0 1rem;
       margin: 0;
       font-size: 150%;
     }
