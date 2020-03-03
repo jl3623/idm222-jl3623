@@ -20,11 +20,11 @@ body {
 }
 
 .navbar a {
-  font-size: 16px;
+  font-size: 1.5rem;
 }
 
 .navbar .fa-external-link {
-  font-size: 10px;
+  font-size: 0.8rem;
 }
 
 .main-heading {
