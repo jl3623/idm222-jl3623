@@ -71,11 +71,11 @@ p {
 
 /*=Base=*/
 section {
-  padding: 5em 0;
+  padding: 5rem 0;
 }
 
 footer {
-  padding: 3em 0;
+  padding: 3rem 0;
 }
 
 @media screen and (max-width: 768px) and (min-width: 485px) {
@@ -91,22 +91,24 @@ ul {
 }
 
 hr {
-  margin-bottom: 3em;
+  margin-bottom: 3rem;
   width: 7%;
 }
 
 /*=Layout=*/
 .sec-folio .row {
-  margin-bottom: 3em;
+  margin-bottom: 0rem;
 }
 
 .sec-folio img {
-  max-width: 100%;
+  width: 28.125rem;
+  height: 28.125rem;
+  padding: 1rem;
 }
 
 /*Header*/
 .navbar-default {
-  background: #fff;
+  background: #e4f9f5;
 }
 
 .navbar .fa-external-link {
@@ -126,7 +128,7 @@ hr {
 .sec-main {
   position: relative;
   height: 560px;
-  background: url(https://i.ibb.co/zrxkQ1p/IMG-2118.jpg) no-repeat center center;
+  background: url(https://i.ibb.co/ynXwYF3/image5.png) no-repeat center center;
   background-size: cover;
 }
 
@@ -165,7 +167,7 @@ hr {
 
 /*Services*/
 .sec-services {
-  background: #f9f9f9;
+  background: #e4f9f5;
 }
 
 .sec-services i {
@@ -186,10 +188,8 @@ hr {
   margin: 1em 0;
 }
 
-/*Testimonials*/
-.sec-testimonials {
-  background: #f9f9f9;
-}
+
+
 
 /*Contact*/
 .sec-contact .form-control:focus {
@@ -199,8 +199,7 @@ hr {
 
 .sec-contact .btn {
   padding: .5rem 1.75rem;
-  background: #000;
-  font-size: .95rem;
+  background: #e4f9f5 font-size: .95rem;
   color: #fff;
 }
 
@@ -212,7 +211,7 @@ hr {
 
 /*Footer*/
 footer {
-  background: #000;
+  background: #e4f9f5;
 }
 
 .soc-media-ul {
@@ -230,7 +229,7 @@ footer {
   display: block;
   padding: 0.5em .65rem;
   font-size: 1rem;
-  color: #fff;
+  color: #11999e;
   border-radius: 50%;
   border: 2px solid;
 }
