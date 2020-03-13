@@ -1,3 +1,5 @@
+/* index & overall */
+
 a,
 .sec-contact .btn {
   transition: all 0.25s;
@@ -55,14 +57,6 @@ p {
   text-align: center;
 }
 
-.sec-testimonials p {
-  font-style: italic;
-}
-
-.sec-contact .btn {
-  text-transform: uppercase;
-}
-
 .soc-media-ul a {
   text-align: center;
   text-decoration: none;
@@ -87,16 +81,6 @@ hr {
   width: 7%;
 }
 
-.sec-folio .row {
-  margin-bottom: 0;
-}
-
-.sec-folio img {
-  width: 28.125rem;
-  height: 28.125rem;
-  padding: 1rem;
-}
-
 .navbar-default {
   background: #e4f9f5;
 }
@@ -107,11 +91,11 @@ hr {
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #40514e;
+  color: #c7d5e0;
 }
 
 .navbar-default .navbar-nav > li > a:active {
-  color: #40514e;
+  color: #c7d5e0;
 }
 
 .sec-main {
@@ -141,15 +125,6 @@ hr {
   margin: auto;
   height: 40px;
   color: #ffffff;
-}
-
-.sec-about a {
-  color: #000000;
-}
-
-.sec-about a:hover,
-.sec-about a:focus {
-  color: #40514e;
 }
 
 .sec-services {
@@ -200,3 +175,11 @@ footer {
 .soc-media-ul a:focus {
   color: #40514e;
 }
+
+.row img {
+  width: 20rem;
+  height: 20rem;
+}
+
+
+/* contact */
