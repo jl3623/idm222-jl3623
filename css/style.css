@@ -182,5 +182,12 @@ footer {
   padding: 1rem;
 }
 
+@media screen and (max-width: 61.25rem) {
+  .row img {
+    width: 28rem;
+    height: 28rem;
+  }
+}
+
 
 /* contact */
