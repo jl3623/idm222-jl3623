@@ -194,6 +194,7 @@ footer {
   margin: 0 auto;
   padding: 1rem;
   perspective: 31.25rem;
+  float: left;
 
 }
 
@@ -235,15 +236,17 @@ footer {
   transform: rotateY(180deg);
 }
 
-/* media for index pics */
+/* media for index pics 
 
-@media screen and (max-width: 62.5rem) {
+@media screen and (min-width: 62.5rem) {
 
-  #folio {
+  .card {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
-
+*/
 /* contact */
 
 /* Resume */
