@@ -297,4 +297,51 @@ footer {
 .contact {
   background-color: #e4f9f5;
   padding: 5rem 0;
+  margin: 0;
+}
+
+/* About */
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #e4f9f5;
+}
+
+.about img {
+  max-width: 25rem;
+  margin: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.about div {
+  max-width: 27rem;
+  margin: 2rem;
+  padding: 0;
+  justify-content: center;
+  background-color: #11999e;
+  border-radius: 0.7rem;
+  box-shadow: 0.6rem 0.6rem 0.3rem #888888;
+  color: white;
+}
+
+figcaption {
+  margin: 0 1rem;
+  padding: 0;
+}
+
+.about p {
+  margin: 1rem;
+
+}
+
+.about a {
+  color: black;
+}
+
+
+video {
+  max-width: 25rem;
+  margin-left: 1rem;
 }
