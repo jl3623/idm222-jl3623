@@ -248,6 +248,7 @@ footer {
 .resume {
   margin: 0 auto;
   padding: 0;
+  background-color: #e4f9f5;
 }
 
 #download {
@@ -258,7 +259,10 @@ footer {
   margin: 2rem;
   width: 17rem;
   justify-content: center;
-  background-color: #c7d5e0;
+  background-color: #11999e;
+  border-radius: 0.7rem;
+  box-shadow: 0.6rem 0.6rem 0.3rem #888888;
+  color: white;
 }
 
 .download p {
