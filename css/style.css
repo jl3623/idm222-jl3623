@@ -242,7 +242,7 @@ footer {
 .resume_cont {
   display: flex;
   flex-wrap: wrap;
-  list-style: circle;
+  justify-content: center;
 }
 
 .resume {
@@ -256,11 +256,31 @@ footer {
 
 .resume_cont div {
   margin: 2rem;
-  width: 15rem;
+  width: 17rem;
+  justify-content: center;
+  background-color: #c7d5e0;
 }
 
 .download p {
   font-size: 150%;
+  padding: 2rem;
+}
+
+.resume_cont li {
+  padding: 0.3rem;
+  margin: 0 1rem;
+}
+
+.resume_cont p {
+  font-size: 150%;
+  margin: 0 1rem;
+  padding: 0.3rem;
+}
+
+.resume_cont h1 {
+  text-align: center;
+  margin-top: 4rem;
+  ;
 }
 
 /* Resume */
