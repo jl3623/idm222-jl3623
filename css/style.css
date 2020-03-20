@@ -236,22 +236,31 @@ footer {
   transform: rotateY(180deg);
 }
 
-/* media for index pics 
 
-@media screen and (min-width: 62.5rem) {
-
-  .card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-*/
 /* contact */
 
-/* Resume */
-
-#resume img {
-  width: 100%;
-  height: 100$;
+.resume_cont {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: circle;
 }
+
+.resume {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#download {
+  text-align: center;
+}
+
+.resume_cont div {
+  margin: 2rem;
+  width: 15rem;
+}
+
+.download p {
+  font-size: 150%;
+}
+
+/* Resume */
