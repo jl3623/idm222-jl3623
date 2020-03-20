@@ -179,10 +179,6 @@ footer {
 
 /* flip cards */
 
-.showcase img {
-  min-width: 100%;
-  min-height: 100%;
-}
 
 .container {
   margin: 0 auto;
@@ -194,8 +190,12 @@ footer {
   margin: 0 auto;
   padding: 1rem;
   perspective: 31.25rem;
-  float: left;
 
+}
+
+.showcases {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .content {
